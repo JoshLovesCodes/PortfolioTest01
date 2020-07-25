@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .topnav {
     background-color: #484d5c;
     overflow: hidden;
@@ -32,6 +33,7 @@
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+    z-index: 1;
   }
 
   .name {
